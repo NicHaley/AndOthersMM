@@ -212,7 +212,7 @@ body {
 }
 
 .section-two-tr {
-	height: 150vh;
+	height: 300vh;
 	width: 100%;
 	position: relative;
 }
@@ -317,11 +317,16 @@ body {
 // The architect
 
 .ar-bg {
-	position: fixed;
+	position: absolute;
+	top: 0;
 	background-image: url(/images/reflection.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100%;
 	width: 100%;
+}
+
+.intro-ar {
+	
 }

@@ -7,30 +7,46 @@ title: The Architect
 <div class="landing-bg">
 	<%= image_tag '/images/architect.png', class:'landing-img' %>
 </div>
+
 <div class="ar-bg"></div>
 
-<script>
-		$(document).ready(function() {
-			try {
-				$('.ar-bg').ripples({
-					resolution: 512,
-					dropRadius: 20, //px
-					perturbance: 0.04,
-				});
-			}
-			catch (e) {
-				$('.error').show().text(e);
-			}
+<div class="section-two-ar">
+	<div class="intro-ar">
+		“For the first time since I had been in Barcelona I went to have a look at the cathedral--a modern cathedral, and one of the most hideous buildings in the world. It has four crenellated spires exactly the shape of hock bottles. Unlike most of the churches in Barcelona it was not damaged during the revolution--it was spared because of its 'artistic value', people said. I think the Anarchists showed bad taste in not blowing it up when they had the chance, though they did hang a red and black banner between its spires.” <br><br>
+		George Orwell, Homage to Catalonia, 1938
+	</div>
+</div>
+<div class="poem-ar">
+	My mother told me the story of the Spaniard glasscrafter 
+	asleep in another world. 
+	He stares across the shore and dreams of churches
+	made entirely of oceans, where  
+	wavering notes spill over the stillness with-
+	out borders, so each song dies where it wants. 
+	As he sleeps his feet anchor to the seabed
+	and he flowers into a reef in shadow. 
+	Awake, he knows he cannot cast the sea;
+	he sketches the face of the reef.
+	It drew first breath after his death, just as rain
+	flooded the unclosed dome, ruptured 
+	the windows, and the tears waterfell over the will-o-wisps of Barcelona. 
+	The tiles shed their shells; archways divided into arcades; 
+	the spine of beams flushed a deck (the tadpoles stood in awe
+	and then ambivalence) - its glass wings 
+	grounded under the open sky. 
+	Only the husk remains
+	an anachronism in every age, 
+	circled by a sea of concrete blocks and comwire. 
+	My mother is a humble architect: 
+	she gathers the vectors of her project layout 
+	like a small pond of water-lilies.  
+	The roof she designs is green:
+	soil, trunks, and trees breathe freely,
+	clean. The real deal.
+	“Spaces are mortal,” she says.
+	I didn’t understand until
+	years later, when I saw the Spaniard
+	alone on the opposite shore. 
+</div>
 
-			// Automatic drops
-			setInterval(function() {
-				var $el = $('.ar-bg');
-				var x = Math.random() * $el.outerWidth();
-				var y = Math.random() * $el.outerHeight();
-				var dropRadius = 20;
-				var strength = 0.03 + Math.random() * 0.03;
-				
-				$el.ripples('drop', x, y, dropRadius, strength);
-			}, 2000);
-		});
-	</script>
+
