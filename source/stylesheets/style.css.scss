@@ -1,0 +1,325 @@
+// Colours
+$mid-grey: #3d3d3d;
+$dark-grey: #303030;
+$poem-color: #E7D2AD;
+
+// All Poems
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.icon {
+	position: fixed;
+	top: 8px;
+	left: 10px;
+	font-size: 20px;
+	color: #afafaf;
+	transition: color 0.3s;
+	-webkit-transition: color 0.3s;
+	z-index: 101;
+}
+
+.icon:hover {
+	color: #191919;
+	transition: color 0.3s;
+	-webkit-transition: color 0.3s;
+	cursor: pointer;
+}
+
+.mobile {
+	position: fixed;
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	display: table;
+	text-align: center;
+}
+
+.mobile-container {
+	font-size: 6rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.mobile-container.rotate {
+	transform: rotate(90deg);
+	transition: 2s;
+}
+
+.mobile-text {
+	font-size: 1rem;
+	position: absolute;
+	display: inline-block;
+	top: 65vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.white-bg {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+// Landing Cover
+.landing-bg {
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	z-index: -1;
+}
+
+.landing-img {
+	max-width: 100%;
+	max-height: 100%;
+	z-index: 1;
+}
+
+.front {
+	height: 100vh;
+	width: 100%;
+}
+
+.title {
+	position: absolute;
+	bottom: 0;
+}
+
+// The EXILE
+
+body {
+	font-size: 1em;
+	margin: 0px;
+	background-color: black;
+}
+
+.title, .text-segue h1 {
+	font-size: 3rem;
+	margin-top: 10px;
+	line-height: 0.72;
+	word-break: break-all;
+	font-weight: 800;
+	color: black;
+}
+
+.text-segue {
+	position: relative;
+	height: 500px;
+}
+
+.rows {
+	position: absolute;
+	height: 205px;
+	overflow: hidden;
+	margin: 0px;
+}
+
+.row-1 {
+	top: 0;
+}
+
+.row-2 {
+	top: 80px;
+}
+
+.row-3 {
+	top: 110px;
+}
+
+.row-4 {
+	top: 125px;
+}
+
+.section-two {
+	margin-top: -500px;
+	width: 100%;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(3,3,3,1) 16%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(16%, rgba(3,3,3,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(3,3,3,1) 16%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(3,3,3,1) 16%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(3,3,3,1) 16%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(3,3,3,1) 16%, rgba(0,0,0,1) 100%);
+}
+
+.intro-quote {
+	padding-top: 500px;
+	display: inline-block;
+	color: white;
+	line-height: 1.5;
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.4rem;
+	font-weight: 500;
+	padding-left: 15%;
+}
+
+.intro-quote > span {
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.2rem;
+	font-weight: 300;
+}
+
+.section-two video {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.poem-ex {
+	color: $poem-color;
+	background-color: black;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 200px;
+	padding-bottom: 250px;
+	line-height: 1.5;
+	font-family: 'Old Standard TT', serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+.section-four, .section-six {
+	background-color: black;
+}
+
+.section-four video {
+	width: 100%;
+}
+
+.section-six video {
+	width: 100%;
+}
+
+
+
+
+// The TROUBADOR
+
+.front.trb {
+	text-align: center;
+}
+
+.title.trb {
+	width: 100%;
+	top: 100vh;
+}
+
+.section-two-tr {
+	height: 150vh;
+	width: 100%;
+	position: relative;
+}
+
+.intro-tr {
+	color: $dark-grey;
+	position: absolute;
+	margin: 80vh 0;
+	padding: 25px 25%;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.poem-tr {
+	line-height: 1.5;
+	display: block;
+}
+
+.vid-tr-container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	opacity: 0;
+	transition: 1s;
+	-webkit-transition: 1s;
+	z-index: 0;
+}
+
+.vid-tr-container1.active, .vid-tr-container2.active, .vid-tr-container3.active {
+	opacity: 0.4;
+	transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.vid-tr {
+	width: 100%;
+}
+
+.gradient-trans-bottom-tr {
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	z-index: 1;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.gradient-trans-top-tr {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 250px;
+	z-index: 1;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.poem1-tr, .poem2-tr {
+	position: relative;
+	color: #303030;
+	margin: 80vh 0;
+	padding: 25px 25%;
+	z-index: 100;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.poem3-tr {
+	position: relative;
+	color: $dark-grey;
+	padding: 25px 25%;
+	margin: 80vh 0 45vh 0;
+	z-index: 100;
+	background-color: rgba(255,255,255,0.8);
+}
+
+@media (max-width: 800px) and (max-height: 500px) {
+	.poem-tr {
+		font-size: 1rem;
+	}
+
+	.poem1-tr, .poem2-tr, .poem3-tr, .intro-tr {
+		padding: 15px 15%;
+		text-align: center;
+	}
+
+	.poem3-tr {
+		margin-bottom: 30vh;
+	}
+
+	.gradient-trans-bottom-tr, .gradient-trans-top-tr {
+		height: 100px;
+	}
+}
+
+// The architect
+
+.ar-bg {
+	position: fixed;
+	background-image: url(images/reflection.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}

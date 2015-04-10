@@ -5,15 +5,26 @@
     
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "And Others" %></title>
+
+      <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+
+      <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,700italic,400italic,500italic|Open+Sans:300italic,400italic,600italic,400,800,700,600,300|Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
     
     <%= stylesheet_link_tag "style" %>
     <%= javascript_include_tag  "all" %>
   </head>
   
-  <body class="<%= page_classes %>">
+  <body>
+    <div class="mobile">
+      <div class="mobile-container">
+        <i class="icon-mobile-phone"></i><br>
+      </div>
+      <div class="mobile-text">PLEASE ROTATE YOUR DEVICE</div>
+    </div>
     <%= yield %>
   </body>
 </html>
