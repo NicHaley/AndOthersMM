@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	try {
-		$('.ar-bg').ripples({
+		$('.ec-bg').ripples({
 			resolution: 512,
 					dropRadius: 20, //px
 					perturbance: 0.04,

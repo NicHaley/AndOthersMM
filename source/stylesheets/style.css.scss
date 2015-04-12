@@ -316,8 +316,8 @@ body {
 
 // The architect
 
-.ar-bg {
-	position: fixed;
+.ec-bg {
+	position: relative;
 	top: 0;
 	background-image: url(/images/reflection.jpg);
 	background-size: contain;
@@ -325,22 +325,41 @@ body {
 	background-position: center;
 	height: 100%;
 	width: 100%;
-	z-index: -1;
+	z-index: 1;
 }
 
-.section-two-ar {
+.ec-bg-container {
+	position: fixed;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.section-two-ec {
 	height: 300vh;
 	width: 100%;
 	position: relative;
+	z-index: 2;
+	pointer-events: none;
 }
 
-.intro-ar {
+.intro-ec {
 	color: $dark-grey;
 	position: absolute;
 	margin: 100vh 0;
 	padding: 25px 25%;
 }
 
-.poem-ar div {
+.poem-ec {
+	position: relative;
+	pointer-events: none;
+	z-index: 2;
+}
+
+.poem-ec div {
+	position: relative;
 	margin: 30px 25%;
+	z-index: 2;
+	pointer-events: none;
 }
