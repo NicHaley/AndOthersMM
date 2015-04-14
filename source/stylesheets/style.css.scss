@@ -355,13 +355,16 @@ body {
 }
 
 .intro-ec {
-	color: $dark-grey;
+	color: white;
 	position: absolute;
 	margin: 100vh 0;
-	padding: 25px 25%;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
 }
 
 .poem-ec {
+	color: white;
 	position: relative;
 	pointer-events: none;
 	z-index: 2;
@@ -369,9 +372,10 @@ body {
 
 .poem-ec div {
 	position: relative;
-	margin: 30px 25%;
 	z-index: 2;
 	pointer-events: none;
+	margin: 50vh auto;
+	width: 350px;
 }
 
 #video {
