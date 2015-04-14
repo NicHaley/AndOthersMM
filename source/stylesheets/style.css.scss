@@ -319,21 +319,31 @@ body {
 .ec-bg {
 	position: relative;
 	top: 0;
-	background-image: url(/images/reflection.jpg);
+	background-image: url(/images/puddle.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100%;
 	width: 100%;
 	z-index: 1;
+	opacity: 0.7;
 }
 
 .ec-bg-container {
 	position: fixed;
-	height: 400px;
-	width: 400px;
+	height: 500px;
+	width: 500px;
 	border-radius: 50%;
 	overflow: hidden;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.white-bg.ec {
+	z-index: 0;
 }
 
 .section-two-ec {
@@ -362,4 +372,11 @@ body {
 	margin: 30px 25%;
 	z-index: 2;
 	pointer-events: none;
+}
+
+#video {
+	position: absolute;
+	top: 0;
+	width: 700px;
+	margin-left: -100px;
 }

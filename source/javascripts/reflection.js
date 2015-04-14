@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	// Automatic drops
 	setInterval(function() {
-		var $el = $('.ar-bg');
+		var $el = $('.ec-bg');
 		var x = Math.random() * $el.outerWidth();
 		var y = Math.random() * $el.outerHeight();
 		var dropRadius = 20;
