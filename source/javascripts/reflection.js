@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
 	try {
 		$('.ec-bg').ripples({
 			resolution: 512,
