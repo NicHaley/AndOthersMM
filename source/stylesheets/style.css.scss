@@ -150,13 +150,14 @@ $poem-color: #E7D2AD;
 	text-align: center;
 	height: 100%;
 	display: table;
-	font-size: 1.4rem;
+	font-size: 5rem;
 	font-weight: 500;
 }
 
 .home-title span {
 	display: table-cell;
 	vertical-align: middle;
+	font-family: 'Bebas Neue';
 }
 
 #time {
@@ -166,6 +167,7 @@ $poem-color: #E7D2AD;
 	width: 100%;
 	text-align: center;
 	bottom: 50px;
+	font-family: 'Bebas Neue';
 }
 
 // The EXILE
