@@ -1,10 +1,11 @@
 $(document).ready(function(){
-	 endDate = new Date(2015, 04, 1, 00, 00, 00);
+	 endDate = new Date(2015, 04, 5, 00, 00, 00);
 
 	setInterval(function(){
 		thisDate  = new Date();
 		thisDate  = new Date(thisDate.getFullYear(), thisDate.getMonth(), thisDate.getDate(), thisDate.getHours(), thisDate.getMinutes(), thisDate.getSeconds(), 00, 00);
 
+		var left = parseInt(endDate - thisDate);
 		var daysLeft = parseInt((endDate-thisDate)/86400000);
 		var hoursLeft = parseInt((endDate-thisDate)/3600000); 
 		var minutsLeft = parseInt((endDate-thisDate)/60000);
