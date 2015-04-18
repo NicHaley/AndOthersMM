@@ -22,6 +22,6 @@ $(document).ready(function(){
 
 		days = daysLeft;
 
-		$("#time").html(days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds");
+		$("#time").html(days + "d " + hours + "h " + minutes + "m " + seconds + "s");
 	}, 1000);
 });
