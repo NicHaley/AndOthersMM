@@ -166,16 +166,29 @@ $poem-color: #E7D2AD;
 	z-index: 2;
 	width: 100%;
 	text-align: center;
-	bottom: 60px;
+	bottom: 75px;
 	font-family: 'Bebas Neue';
+	font-size: 1.5rem;
 }
 
-.fb-share-button {
-	position: absolute !important;
-	z-index: 2;
+.share-buttons {
 	width: 100%;
+	position: absolute;
 	text-align: center;
-	bottom: 40px;
+	z-index: 2;
+	bottom: 35px;
+}
+
+.fb-share-button, .twitter-share-button {
+	// position: absolute !important;
+	// text-align: center;
+	// bottom: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fb-share-button span {
+	height: 21px !important;
 }
 
 // The EXILE
