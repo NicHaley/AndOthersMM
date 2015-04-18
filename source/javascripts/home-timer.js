@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	 endDate = new Date(2015, 04, 5, 00, 00, 00);
+	endDate = new Date(2015, 04, 5, 00, 00, 00);
 
 	setInterval(function(){
 		thisDate  = new Date();
@@ -22,6 +22,10 @@ $(document).ready(function(){
 
 		days = daysLeft;
 
-		$("#time").html(('0' + days).slice(-2) + "d " + ('0' + hours).slice(-2) + "h " + ('0' + minutes).slice(-2) + "m " + ('0' + seconds).slice(-2) + "s");
+		if(left < 0) {
+			$("#time").html("");
+		} else {
+			$("#time").html(('0' + days).slice(-2) + "d " + ('0' + hours).slice(-2) + "h " + ('0' + minutes).slice(-2) + "m " + ('0' + seconds).slice(-2) + "s");
+		}
 	}, 1000);
 });
