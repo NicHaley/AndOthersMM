@@ -177,6 +177,7 @@ $poem-color: #E7D2AD;
 	text-align: center;
 	z-index: 2;
 	bottom: 35px;
+	opacity: 0.5;
 }
 
 .fb-share-button, .twitter-share-button {
@@ -409,7 +410,15 @@ body {
 	}
 }
 
-// The architect
+// The Echo
+
+.white-landing {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	background-color: white;
+}
 
 .ec-bg {
 	position: relative;
