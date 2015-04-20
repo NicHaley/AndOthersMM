@@ -1,10 +1,11 @@
 $(window).load(function(){
+
 	try {
 		$('.ec-bg').ripples({
 			resolution: 512,
-					dropRadius: 20, //px
-					perturbance: 0.04,
-				});
+						dropRadius: 20, //px
+						perturbance: 0.04,
+					});
 	}
 	catch (e) {
 		$('.error').show().text(e);

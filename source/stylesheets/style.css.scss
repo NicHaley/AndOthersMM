@@ -415,9 +415,43 @@ body {
 .white-landing {
 	height: 100%;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	background-color: white;
+}
+
+// Echo Parallax Effect
+
+.test-title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.parallax {
+	// position: fixed;
+	// z-index: 2;
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.parallax__layer {
+	padding: 100vh 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: white;
+}
+.parallax__layer--base {
+	transform: translateZ(0);
+}
+.parallax__layer--back {
+	transform: translateZ(-1px);
 }
 
 .ec-bg {
