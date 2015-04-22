@@ -496,6 +496,14 @@ body {
 	opacity: 0.7;
 }
 
+// .ec-mask {
+// 	position: relative;
+// 	top: 0;
+// 	height: 100%;
+// 	width: 100%;
+// 	background-color: black;
+// }
+
 .ec-bg-container {
 	position: fixed;
 	height: 500px;
@@ -507,6 +515,7 @@ body {
 	right: 0;
 	top: 0;
 	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
 }
 
 .white-bg.ec {
@@ -514,7 +523,7 @@ body {
 }
 
 .section-two-ec {
-	height: 300vh;
+	height: 70vh;
 	width: 100%;
 	position: relative;
 	z-index: 2;
@@ -524,10 +533,11 @@ body {
 .intro-ec {
 	color: white;
 	position: absolute;
-	margin: 100vh 0;
+	margin: 50vh 0;
 	width: 400px;
 	left: 50%;
 	margin-left: -200px;
+	font-family: "Open Sans";
 }
 
 .poem-ec {
@@ -535,6 +545,7 @@ body {
 	position: relative;
 	pointer-events: none;
 	z-index: 2;
+	font-family: "Open Sans";
 }
 
 .poem-ec div {
