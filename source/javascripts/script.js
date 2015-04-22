@@ -1,14 +1,14 @@
 $(document).ready(function(){
 	setTimeout(function(){
-		$(".audio-ex")[0].loop = true;
-		$(".audio-ex")[0].play();
+		$(".audio")[0].loop = true;
+		$(".audio")[0].play();
 
 		$('.icon').click(function() {
-			if ($(".audio-ex")[0].paused == false) {
-				$(".audio-ex")[0].pause();
+			if ($(".audio")[0].paused == false) {
+				$(".audio")[0].pause();
 			    // alert('music paused');
 			} else {
-				$(".audio-ex")[0].play();
+				$(".audio")[0].play();
 			    // alert('music playing');
 			}
 		});
