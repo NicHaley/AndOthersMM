@@ -4,6 +4,7 @@ $(document).ready(function(){
 		$(".audio")[0].play();
 
 		$('.icon').click(function() {
+			$('.icon').toggleClass('audio-active');
 			if ($(".audio")[0].paused == false) {
 				$(".audio")[0].pause();
 			    // alert('music paused');

@@ -5,7 +5,8 @@ title: The Troubadour
 <audio class="audio">
 	<source src="http://s3.amazonaws.com/sonofsnow/audio/troubadour.mp3"></source>
 </audio>
-<i class="icon icon-volume-up" target="_blank"></i>
+<i class="icon icon-volume-up audio-active" target="_blank"></i>
+<i class="icon icon-volume-off" target="_blank"></i>
 <div class="white-bg"></div>
 <div class="landing-bg">
 	<%= image_tag 'http://s3.amazonaws.com/sonofsnow/images/boy.png', class:'landing-img' %>
@@ -56,6 +57,6 @@ title: The Troubadour
 	There is no need to sleep, being a dream,<br> 
 	peeing behind Coca-Cola machines.<br> 
 	And I still smile to remember after,<br> 
-	those moments of my life made of laughter.
+	those moments of my life made of <%= link_to 'laughter', '/exile.html', class:"hover-link" %>.
 
 </div>

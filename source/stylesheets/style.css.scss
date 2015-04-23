@@ -24,6 +24,14 @@ $poem-color: #E7D2AD;
 	cursor: pointer;
 }
 
+i.icon.icon-volume-up, i.icon.icon-volume-off {
+	display: none;
+}
+
+i.icon.icon-volume-up.audio-active, i.icon.icon-volume-off.audio-active {
+  display: inline-block;
+}
+
 .mobile {
 	position: fixed;
 	z-index: 100;
@@ -118,26 +126,6 @@ $poem-color: #E7D2AD;
 	-webkit-transition: color 0.3s;
 	cursor: pointer;
 }
-
-// .home-container {
-// 	position: fixed;
-// 	height: 500px;
-// 	// width: 500px;
-// 	overflow: hidden;
-// 	margin: auto;
-// 	left: 0;
-// 	right: 0;
-// 	top: 0;
-// 	bottom: 0;
-// }
-
-// .vid-home {
-// 	position: absolute;
-// 	left: 50%;
-// 	margin-left: -450px;
-// 	width: 900px;
-// 	z-index: 1;
-// }
 
 .home-title {
 	position: absolute;
@@ -318,11 +306,29 @@ body {
 	margin: 80vh 0;
 	padding: 25px 25%;
 	background-color: rgba(255,255,255,0.8);
+	font-family: "Open Sans";
 }
 
 .poem-tr {
 	line-height: 1.5;
 	display: block;
+	font-family: "Open Sans";
+}
+
+.hover-link {
+	padding: 2px;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.hover-link:hover {
+	background-color: #f2f2f2;
+	color: black;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
 }
 
 .vid-tr-container {
