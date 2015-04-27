@@ -626,9 +626,44 @@ body {
 	padding: 0 10% 0 10%;
 }
 
+.parallax__layer--base.ar {
+	transform: translateZ(0);
+	z-index: 3;
+}
 
+.parallax__layer--back.ar {
+	transform: translateZ(-0.25px) scale(1.25);
+	z-index: 4;
+}
 
+.parallax__layer--deep.ar {
+	transform: translateZ(-0.5px) scale(1.5);
+	z-index: 5;
+}
 
+.parallax__layer--title.ar {
+	transform: translateZ(-0.75px) scale(1.75);
+	z-index: 6;
+}
 
+.arch-img {
+	padding-top: 80vh;
+	padding-bottom: 100vh;
+	max-width: 500px;
+	width: 50%;
+	margin: auto;
+	display: block;
+}
 
+.ar-title {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 52%;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 3rem;
+}
 
