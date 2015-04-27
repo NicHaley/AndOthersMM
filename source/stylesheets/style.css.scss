@@ -586,7 +586,7 @@ body {
 
 .left-ar {
 	text-align: center;
-	width: 40%;
+	width: 45%;
 	height: 100%;
 	position: fixed;
 	top: 0;
@@ -595,10 +595,11 @@ body {
 }
 
 .right-ar {
-	width: 60%;
+	width: 55%;
 	height: 100%;
 	float: right;
 }
+
 #model-container {
 	position: absolute;
 	top: 0;
@@ -613,10 +614,22 @@ body {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 300px;
-	height: 300px;
 	background-color: black;
 	right: 0;
 	position: absolute;
 	margin: auto;
+	width: 90%;
+	max-width: 550px;
+	height: 80%;
 }
+
+.poem-ar {
+	padding: 0 10% 0 10%;
+}
+
+
+
+
+
+
+
