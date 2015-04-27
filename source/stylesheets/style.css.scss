@@ -632,17 +632,17 @@ body {
 }
 
 .parallax__layer--back.ar {
-	transform: translateZ(-0.25px) scale(1.25);
+	transform: translateZ(-0.2px) scale(1.2);
 	z-index: 4;
 }
 
 .parallax__layer--deep.ar {
-	transform: translateZ(-0.5px) scale(1.5);
+	transform: translateZ(-0.4px) scale(1.4);
 	z-index: 5;
 }
 
 .parallax__layer--title.ar {
-	transform: translateZ(-0.75px) scale(1.75);
+	transform: translateZ(-0.6px) scale(1.6);
 	z-index: 6;
 }
 
