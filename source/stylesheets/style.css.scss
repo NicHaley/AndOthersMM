@@ -650,6 +650,7 @@ body {
 	padding-top: 80vh;
 	padding-bottom: 100vh;
 	max-width: 500px;
+	min-width: 300px;
 	width: 50%;
 	margin: auto;
 	display: block;
@@ -660,7 +661,8 @@ body {
 	left: 0;
 	right: 0;
 	margin: auto;
-	top: 52%;
+	top: 50%;
+	margin-top: -27.5px;
 	text-align: center;
 	font-family: Helvetica;
 	font-weight: 100;
