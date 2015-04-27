@@ -586,7 +586,7 @@ body {
 
 .left-ar {
 	text-align: center;
-	width: 65%;
+	width: 50%;
 	height: 100%;
 	position: fixed;
 	top: 0;
@@ -595,7 +595,7 @@ body {
 }
 
 .right-ar {
-	width: 35%;
+	width: 50%;
 	height: 100%;
 	float: right;
 }
@@ -623,7 +623,7 @@ body {
 }
 
 .poem-ar {
-	padding: 0 10% 0 10%;
+	padding: 0 10% 50vh 10%;
 }
 
 .parallax__layer--base.ar {
@@ -667,5 +667,14 @@ body {
 	font-family: Helvetica;
 	font-weight: 100;
 	font-size: 3rem;
+}
+
+.poem-ar div {
+	position: relative;
+	z-index: 2;
+	pointer-events: none;
+	margin: 20px auto;
+	font-size: 1.1rem;
+	line-height: 1.4;
 }
 
