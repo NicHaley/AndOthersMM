@@ -26,6 +26,7 @@ $(document).ready(function(){
 
 			if(left < 0) {
 				$("#time").html("");
+				$("#start a").css("display","block");
 			} else {
 				$("#time").html(('0' + days).slice(-2) + "d " + ('0' + hours).slice(-2) + "h " + ('0' + minutes).slice(-2) + "m " + ('0' + seconds).slice(-2) + "s");
 			}
