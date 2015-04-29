@@ -378,9 +378,10 @@ body {
 }
 
 .hover-link:hover {
-	background-color: #f2f2f2;
+	background-color: white;
 	color: black;
 	transition: 0.2s;
+	text-decoration: underline;
 	-webkit-transition: 0.2s;
 }
 
