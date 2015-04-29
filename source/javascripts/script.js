@@ -15,8 +15,5 @@ $(document).ready(function(){
 		});
 	}, 500);
 
-	$('.poem-ex').selectionSharer();
-	$('.intro-quote').selectionSharer();
-	$('.poem-tr').selectionSharer();
-	$('.intro-tr').selectionSharer();
+	$('.poem-share').selectionSharer();
 });

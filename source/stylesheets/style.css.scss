@@ -583,7 +583,6 @@ body {
 	width: 100%;
 	position: relative;
 	z-index: 2;
-	pointer-events: none;
 }
 
 .intro-ec {
@@ -599,7 +598,6 @@ body {
 .poem-ec {
 	color: white;
 	position: relative;
-	pointer-events: none;
 	z-index: 2;
 	font-family: "Open Sans";
 }
@@ -607,7 +605,6 @@ body {
 .poem-ec div {
 	position: relative;
 	z-index: 2;
-	pointer-events: none;
 	margin: 50vh auto;
 	width: 350px;
 }
