@@ -727,3 +727,43 @@ body {
 	opacity: 0 !important;
 }
 
+// The Hermit
+
+.conversation-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.conversation {
+	position: relative;
+	width: 60%;
+	height: 90%;
+	margin: auto;
+}
+
+.user {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: block;
+}
+
+form#form {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
