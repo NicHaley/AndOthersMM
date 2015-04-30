@@ -1,7 +1,9 @@
 // Colours
+$light-grey: #EAEAEA;
 $mid-grey: #3d3d3d;
 $dark-grey: #303030;
 $poem-color: #E7D2AD;
+$green: #8bcf41;
 
 // All Poems
 .icon {
@@ -742,11 +744,34 @@ body {
 	margin: auto;
 }
 
-.user {
+.message {
 	position: absolute;
-	right: 0;
 	bottom: 0;
+	width: 100%;
+}
+
+.user-container {
+	width: 100%;
+	text-align: right;
+}
+
+.user {
+	display: inline-block;
+	width: 300px;
+	background-color: $green;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.sender {
 	display: block;
+	text-align: left;
+	max-width: 300px;
+	background-color: $light-grey;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 form#form {
