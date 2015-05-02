@@ -21,6 +21,7 @@
   
   <%= stylesheet_link_tag "all" %>
   <%= javascript_include_tag  "all" %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
 
   <script src="//use.typekit.net/fhv7pru.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
@@ -48,12 +49,12 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-<!--     <div class="mobile">
-        <div class="mobile-container">
-            <i class="icon-mobile-phone"></i><br>
+    <div class="chrome">
+        <div class="chrome-container">
+            <i class="icon-chrome-phone"></i><br>
         </div>
-        <div class="mobile-text">PLEASE ROTATE YOUR DEVICE</div>
-    </div> -->
+        <div class="chrome-text"><strong>Spare some change for the Chrome-less?</strong><br>(Please use Chrome)</div>
+    </div>
 
     <%= link_to 'SS', '/', class:"nav-logo" %>
     <%= yield %>
