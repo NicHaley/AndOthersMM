@@ -16,9 +16,12 @@ $(document).on('ready', function(){
 	   			
 	   			setTimeout(function(){
 	   				response(userText);
+		   			var messageContainer = $('.message');
+					messageContainer.animate({ scrollTop: messageContainer.prop("scrollHeight") - messageContainer.height() }, 650);
 	   			}, responseTime);
 
 	   			$('#input').val("");
+
 	   		});
 		}
 

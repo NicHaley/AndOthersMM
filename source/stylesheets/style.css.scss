@@ -4,7 +4,7 @@ $mid-grey: #3d3d3d;
 $dark-grey: #303030;
 $poem-color: #E7D2AD;
 $green: #8bcf41;
-$blue: #007AFF;
+$blue: #448AD7;
 
 // All Poems
 .icon {
@@ -107,9 +107,13 @@ i.icon.icon-volume-up.audio-active, i.icon.icon-volume-off.audio-active {
 }
 
 .landing-img {
+	position: absolute;
 	max-width: 100%;
 	max-height: 100%;
 	z-index: 1;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .front {
@@ -247,6 +251,7 @@ body {
 }
 
 .text-segue {
+	margin-top: 35vh;
 	position: relative;
 	height: 500px;
 	font-family: "Open Sans";
@@ -809,7 +814,14 @@ form#form {
 	padding-top: 10vh;
 }
 
-
+#input {
+	margin-top: 25px;
+	width: 40%;
+	height: 30px;
+	opacity: 0.9;
+	border: none;
+	text-align: center;
+}
 
 
 
