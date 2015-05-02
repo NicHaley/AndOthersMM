@@ -521,7 +521,7 @@ body {
 	font-size: 3rem;
 }
 
-.echo-img {
+.echo-img, .hermit-img {
 	padding-bottom: 100vh;
 	max-width: 1043px;
 	width: 100%;
@@ -734,7 +734,7 @@ body {
 
 .conversation {
 	position: relative;
-	width: 60%;
+	width: 70%;
 	height: 90%;
 	margin: auto;
 	overflow: scroll;
@@ -776,12 +776,30 @@ form#form {
 	text-align: center;
 }
 
-.vid-hr {
+#video-container-hr {
+	height: 100%;
 	width: 100%;
-	margin: 5px 0;
+	position: fixed;
 }
 
+.hermit-bg-vid {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	object-fit: cover;
+}
 
+.hermit-title {
+	position: relative;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+
+	h2 {
+		margin-top: 0;
+		margin-bottom: 10vh;
+	}
+}
 
 
 

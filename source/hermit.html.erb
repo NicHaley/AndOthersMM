@@ -9,6 +9,30 @@ title: The Hermit
 <i class="icon icon-volume-off" target="_blank"></i>
 
 <div class="white-bg"></div>
+<div id="video-container-hr"></div>
+
+<div class="parallax">
+	<div class="parallax__layer parallax__layer--deep">
+		<%= image_tag 'http://s3.amazonaws.com/sonofsnow/images/hermit-bg.png', class:'hermit-img' %>
+	</div>
+	<div class="parallax__layer parallax__layer--back">
+		<%= image_tag 'http://s3.amazonaws.com/sonofsnow/images/hermit-mg.png', class:'hermit-img' %>
+	</div>
+	<div class="parallax__layer parallax__layer--base">
+		<%= image_tag 'http://s3.amazonaws.com/sonofsnow/images/hermit-fg.png', class:'hermit-img' %>
+	</div>
+</div>
+
+<div class="hermit-title">
+	<h2>The Hermit</h2>
+	松下問童子<br>
+	言師採藥去<br>
+	只在此山中<br>
+	雲深不知處<br><br>
+	Jia Dao, 尋隱者不遇
+</div>
+<div class="gradient-ec"></div>
+
 <div class="conversation-container">
 	<div class="conversation">
 		<div class="message"></div>
@@ -20,13 +44,6 @@ title: The Hermit
 </div>
 <script id="part1Template" type="text/template">
 	<div class="sender">
-		松下問童子<br>
-		言師採藥去<br>
-		只在此山中<br>
-		雲深不知處<br><br>
-		Jia Dao, 尋隱者不遇
-	</div>
-	<div class="sender">
 		I am lazy today,<br>
 		lazy all the days...<br><br> 
 		The warmth of spring&apos;s acid rain<br> 
@@ -35,7 +52,6 @@ title: The Hermit
 		the taste of leaves.<br> 
 		Do you know what is special about today? 
 	</div>
-	<video class='vid-hr' src='http://s3.amazonaws.com/sonofsnow/videos/hermit1.mov' autoplay loop muted></video>
 </script>
 
 <script id="part2Template" type="text/template">
@@ -50,14 +66,12 @@ title: The Hermit
 	<div class="sender">
 		When was the last time we spoke? 
 	</div>
-	<video class='vid-hr' src='http://s3.amazonaws.com/sonofsnow/videos/hermit2.mov' autoplay loop muted></video>
 </script>
 
 <script id="part3Template" type="text/template">
 	<div class="sender">
 		Better yet, when was the last time you listened?  
 	</div>
-	<video class='vid-hr' src='http://s3.amazonaws.com/sonofsnow/videos/hermit5.mov' autoplay loop muted></video>
 </script>
 
 <script id="part4Template" type="text/template">
@@ -79,7 +93,6 @@ title: The Hermit
 	<div class="sender">
 		Could you still recognize me?    
 	</div>
-	<video class='vid-hr' src='http://s3.amazonaws.com/sonofsnow/videos/hermit5.mov' autoplay loop muted></video>
 </script>
 
 <script id="part5Template" type="text/template">
@@ -95,7 +108,6 @@ title: The Hermit
 	<div class="sender">
 		Would you follow me there? 
 	</div>
-	<video class='vid-hr' src='http://s3.amazonaws.com/sonofsnow/videos/hermit5.mov' autoplay loop muted></video>
 </script>
 
 <script id="part6Template" type="text/template">
@@ -104,5 +116,4 @@ title: The Hermit
 		but I can’t see past the thick smog, or hear<br> 
 		anything other than my own echoes…    
 	</div>
-	<video class='vid-hr' src='http://s3.amazonaws.com/sonofsnow/videos/hermit5.mov' autoplay loop muted></video>
 </script>
