@@ -108,7 +108,7 @@ $(document).on('ready', function(){
 
 		function alternateResponses(input) {
 			if ((input.toLowerCase().indexOf("yes") > -1) || (input.toLowerCase().indexOf("ya") > -1)) {
-				window.location.href = "http://www.sonofsnow.com/credits.html";
+				window.location.href = "http://www.sonofsnow.com/credits";
 			} else {
 				$('.conversation > .message').append("<div class='sender'>Too bad. Get out of here. Git.</div>");
 				setTimeout(function(){
