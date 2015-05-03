@@ -112,7 +112,7 @@ $(document).on('ready', function(){
 			} else {
 				$('.conversation > .message').append("<div class='sender'>Too bad. Get out of here. Git.</div>");
 				setTimeout(function(){
-					window.location.href = "http://www.sonofsnow.com/credits.html";
+					window.location.href = "http://www.sonofsnow.com/credits";
 				},3000);
 			}
 		}
