@@ -1,7 +1,7 @@
 $(document).on('ready', function(){
 	if(navigator.userAgent.toLowerCase().indexOf('chrome') > -1){
-		$('.chrome').css("display", "none");
 	} else {
-		alert("Please Use Chrome!");
+		$('.chrome').css("display", "none");
+		// alert("Please Use Chrome!");
 	}
 });

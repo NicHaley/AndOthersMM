@@ -45,9 +45,12 @@ i.icon.icon-volume-up.audio-active, i.icon.icon-volume-off.audio-active {
 }
 
 .chrome-container {
-	font-size: 6rem;
 	display: table-cell;
 	vertical-align: middle;
+
+	img {
+		width: 100px;
+	}
 }
 
 .chrome-text {

@@ -90,7 +90,7 @@ $(document).on('ready', function(){
 			$('.conversation > .message').append(rendered);
 
 			$("#video-container-hr").append($("<video class='hermit-bg-vid' autoplay loop muted />"));
-				$(".hermit-bg-vid").attr('src', 'http://s3.amazonaws.com/sonofsnow/videos/hermit1.mov');
+			$(".hermit-bg-vid").attr('src', 'http://s3.amazonaws.com/sonofsnow/videos/hermit1.mov');
 		}
 
 		function alternateResponses(input) {
