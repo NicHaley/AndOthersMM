@@ -917,3 +917,8 @@ form#form {
 	margin-right: 15px;
 }
 
+// Scrollbar Override
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none !important;
+    background-color: none !important;
+}
