@@ -918,7 +918,10 @@ form#form {
 }
 
 // Scrollbar Override
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: none !important;
-    background-color: none !important;
+
+.scrollable-content::-webkit-scrollbar * {
+    background:transparent;
+}
+.scrollable-content::-webkit-scrollbar-thumb {
+    background:#999 !important;
 }
