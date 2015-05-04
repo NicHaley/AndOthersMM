@@ -576,7 +576,7 @@ body {
 .gradient-ec {
 	position: relative;
 	z-index: 2;
-	height: 100vh;
+	height: 150vh;
 	width: 100%;
 	background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
@@ -798,15 +798,13 @@ body {
 	width: 70%;
 	height: 90%;
 	margin: auto;
-	overflow: scroll;
+	// overflow: scroll;
 }
 
 .message {
 	position: absolute;
-	bottom: 0;
+	bottom: 50px;
 	width: 100%;
-	max-height: 100%;
-	overflow: scroll;
 }
 
 .user-container {
@@ -836,6 +834,9 @@ body {
 }
 
 form#form {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	text-align: center;
 }
 
@@ -858,6 +859,7 @@ form#form {
 	width: 100%;
 	text-align: center;
 	padding-bottom: 50vh;
+	z-index: 1;
 
 	h2 {
 		margin-top: 0;
@@ -871,7 +873,7 @@ form#form {
 
 #input {
 	margin-top: 25px;
-	width: 40%;
+	width: 50%;
 	height: 30px;
 	opacity: 0.9;
 	border: none;
@@ -919,9 +921,3 @@ form#form {
 
 // Scrollbar Override
 
-.scrollable-content::-webkit-scrollbar * {
-    background:transparent;
-}
-.scrollable-content::-webkit-scrollbar-thumb {
-    background:#999 !important;
-}
